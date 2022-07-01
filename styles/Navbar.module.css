@@ -1,0 +1,45 @@
+.navbarstyle{
+    background-color: #50CAFF;
+    ;
+    padding: 0%;
+    height:55px;
+    margin-left: 190px;
+}
+.container-fluid{
+    height:55px;
+}
+.iconStyle{
+    height: 18px;
+width: 18.000003814697266px;
+left: 0px;
+margin-top: 10px;
+margin-right: 4px;
+border-radius: 0px;
+
+
+
+
+}
+.textcolor{
+    color: white;
+    border-color: white;
+    
+
+}
+.textcolor:hover {
+  
+    color: #fff;
+    }
+.textcolor:active {
+  
+        color: #fff;
+        }
+.profileStyle{
+    height: 45.95919036865234px;
+width: 45.918365478515625px;
+margin-top: -2.5px;
+border: 2px solid #fff ;
+border-radius: 25px;
+
+
+}

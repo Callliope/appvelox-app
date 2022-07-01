@@ -1,0 +1,59 @@
+.sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #003B72;
+    
+    overflow-x: hidden;
+    padding-top: 5px;
+  }
+  
+  .sidenav a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-top: 14px;
+    
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+
+    display: block;
+  }
+ 
+.sidebarBlock{
+    margin-bottom: 10px;
+    height: 46px;
+    align-content: center;
+}
+#topblock{
+    height: 50px;
+    margin-bottom: none;
+    align-content: center
+  }
+.sidebaricon{
+    margin-top: none;
+    margin-right: 14px;
+
+}
+#chosensection{
+    background: #FCFCFC;
+    
+    
+}
+#chosentext{
+    color: #7761FF;
+    
+}
+.bottomElement{
+    margin-top: 140%;}
+    
+#appveloxlogo{
+    margin-left: 20px;
+    margin-top:18px;
+}
+
+  
