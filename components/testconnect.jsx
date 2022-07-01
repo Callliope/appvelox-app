@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Blog(props) {
   const content = props.posts.map((post) => (
     <div className="showappointmentblock" key={post.id}>
@@ -71,7 +72,9 @@ export default function testconnect2() {
         </div>
         <div id="elseblock">
           <p>Еще 3 записи</p>
-          <a href="#">Подробнее</a>
+          <Link href="/appointmentpage">
+            <a>Подробнее</a>
+          </Link>
         </div>
       </div>
     </div>
