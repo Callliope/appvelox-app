@@ -8,8 +8,10 @@ const Appointmentpage=() =>(
     <>
     <Navbar></Navbar>
     <Sidebar></Sidebar>
-    <Page2list></Page2list>
-    <Calendar></Calendar>
+    <div id='componentcontainer'><Page2list></Page2list>
+    <Calendar></Calendar></div>
+    
     </>
 );
+
 export default Appointmentpage;

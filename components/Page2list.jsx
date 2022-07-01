@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Blog(props) {
   const content = props.posts.map((post) => (
     <div className="showappointmentblock" key={post.id}>
@@ -68,10 +69,15 @@ const posts = [
 export default function page2list() {
   return (
     <div>
-      <p className="titlecardblock">Записи на прием</p>
+      <img className="titlecardblock" src="pageback.png"></img>
+      <Link href="/">
+        <a className="titlecardblock">Мои записи</a>
+      </Link>
       <div className="containerconnect">
         <div className="connectblock">
-          <Blog posts={posts} />
+          <div class="slider__wrapper">
+            <Blog posts={posts} />
+          </div>
         </div>
       </div>
     </div>

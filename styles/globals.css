@@ -216,6 +216,7 @@ text-decoration: none;
 }
 .titlecardblock{
   margin-left: 230px;
+  text-decoration: none;
 }
 
 /* СТИЛИ БЛОКА ЗАПИСИ НА ПРИЕМ */
@@ -286,4 +287,70 @@ margin-top: -60px;}
 }
 #elseblock a{
   color: #50CAFF;
+}
+::-webkit-scrollbar {
+  height: 8px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #EBE7FF;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #003B72;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #003B72;
+}
+
+.slider__wrapper{
+  display: flex;
+  height: 60%;
+  overflow: hidden;
+  overflow-y: auto;
+  
+}
+
+
+
+/* СТИЛИ КАЛЕНДАРЯ */
+#componentcontainer{
+  display: flex;
+  flex-direction: row;
+}
+#calendarcontainer{
+  padding-left: 100px;
+  align-self: top;
+}
+
+.sdp {
+  background-color:#EBE7FF !important ;
+  width: max-content !important;
+  height: max-content !important;
+  --font: 'Rubik' !important;
+}
+.sdp--square-btn{
+  height: 63px !important;
+width: 79px !important;
+
+border-radius: 0px !important;
+
+}
+.sdp {
+  margin-top: 65px;
+  --theme-color: #7761FF !important;
+  --disabled-color:  rgba(0, 0, 0, 0.25) !important;
+  
+}
+.sdp--square-btn__shadowed{
+  border-radius: 0px !important;
+  background-color: #7761FF !important;
+  color: white;
+
+}
+.sdp--month-picker{
+  background-color: #7761FF !important;
+  color:white;
 }
