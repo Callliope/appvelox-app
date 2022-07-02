@@ -8,15 +8,15 @@ function Blog(props) {
       <p className="miniblogtext">{post.buildingname},</p>
       <p className="miniblogtext">{post.adress}</p>
       <img className="doctorimg" src={post.img}></img>
-      <div className="textnearimg">
-        <p className="bigblogtext">{post.doctorname}</p>
+      <div className="textnearimg2">
+        <p className="bigblogtext2">{post.doctorname}</p>
 
         <p className="transparenttext">{post.position}</p>
       </div>
-      <button className="buttonStyle">Отменить</button>
+      <button className="buttonStyle2">Отменить</button>
     </div>
   ));
-  return <div>{content}</div>;
+  return <div className="divcontent">{content}</div>;
 }
 
 const posts = [
@@ -73,7 +73,7 @@ export default function page2list() {
       <Link href="/">
         <a className="titlecardblock">Мои записи</a>
       </Link>
-      <div className="containerconnect">
+      <div className="containerconnect2page">
         <div className="connectblock">
           <div class="slider__wrapper">
             <Blog posts={posts} />

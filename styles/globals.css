@@ -191,20 +191,20 @@ color: #FFFFFF;
   
 }
 .childBlock{
-
+display: flex;
   height: 183px;
-width: 590px;
+width: 540px;
 box-shadow: 0px 0px 5px #EBE7FF;
 border-radius: 5px;
-margin-right: 20px;
+
 
 }
+
+
+
 
 .textasideimg{
-  padding-left: -10px;
-  padding-top: 20px;
-}
-.titlechildblock{
+  padding: 20px 20px 20px 6px;
   font-weight: 400;
 font-size: 16px;
 line-height: 24px;
@@ -214,14 +214,72 @@ text-decoration: none;
 
 
 }
+#miniicon1{
+  height: 50px;
+width: 39.63775634765625px;
+
+border-radius: 0px;
+
+transform: translate(-85px,-70px);
+
+}
+#miniicon2{
+  height: 50px;
+  width: 50px;
+border-radius: 0px;
+
+transform: translate(45px,-120px);
+
+}
+#miniicon3{
+  height: 50px;
+  width: 44.7265625px;
+
+
+transform: translate(45px,-120px);
+
+}
+.textasidetop{
+  font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 33px;
+}
 .titlecardblock{
   margin-left: 230px;
   text-decoration: none;
 }
 
 /* СТИЛИ БЛОКА ЗАПИСИ НА ПРИЕМ */
+.buttonStyle2,.buttonStyle1{
+  background: #7761FF;
+border-radius: 5px;
+border: #7761FF ;
+height: 40px;
+width: 98px;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+margin-left: 20px;
 
+margin-top: -50px;
+color: white;
+
+}
 .containerconnect{
+
+  margin-left: 210px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 35px;
+ 
+}
+.flexcontainer{
+  display: flex;
+  flex-direction: row;
+}
+.containerconnect2page{
 
   margin-left: 210px;
   display: flex;
@@ -232,15 +290,28 @@ text-decoration: none;
   float: right;
 }
 
-
+.connectblock{
+  display: flex;
+  flex-direction: row;
+}
 .bigblogtext{
   font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-padding-top: 20px;
+padding-top: 3px;
 padding-left: 20px;
+
 }
+.bigblogtext2{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  
+  padding-left: 20px;
+}
+
 .transparenttext{
   font-style: normal;
 font-weight: 400;
@@ -267,8 +338,10 @@ height: 194px;
 background: #FFFFFF;
 box-shadow: 0px 0px 5px #EBE7FF;
 border-radius: 5px;
-margin-bottom: 40px;
+padding: 5px 20px 20px 20px;
+margin-right: 40px;
 }
+
 .containerconnect button{
 margin-right: 20px;
 margin-top: -60px;}
@@ -276,8 +349,15 @@ margin-top: -60px;}
   padding-left: 0px;}
 .textnearimg{
   padding-left: 90px;
-  margin-top: -95px;
+  margin-top: -80px;
 }
+.textnearimg2{
+  padding-left: 90px;
+  margin-top: -80px;
+}
+.textnearimg2 p{
+  padding-left: 0px;}
+
 .doctorimg{
   padding-left: 20px;
 }

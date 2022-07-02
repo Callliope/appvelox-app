@@ -13,10 +13,10 @@ function Blog(props) {
 
         <p className="transparenttext">{post.position}</p>
       </div>
-      <button className="buttonStyle">Отменить</button>
+      <button className="buttonStyle1">Отменить</button>
     </div>
   ));
-  return <div>{content}</div>;
+  return <div className="flexcontainer">{content}</div>;
 }
 
 const posts = [
@@ -42,24 +42,6 @@ const posts = [
     doctorname: "Харьков В. С.",
     position: "Терапевтическое отделение",
   },
-  // {   id:2,
-  //     day:"Вторник",
-  //     date:"30.06.20",
-  //     time :"12:10",
-  //     buildingname:"СПБ ГБУЗ \"Городская поликлиника №25\"",
-  //     adress:"пр. Солидарности, д. 1, к. 1, лит. А",
-  //     doctorname:"Малушко Т. Н.",
-  //     position:"Хирургия"
-  // },
-  // {   id:3,
-  //     day:"Четверг",
-  //     date:"02.07.20",
-  //     time :"12:30",
-  //     buildingname:"СПБ ГБУЗ \"Городская поликлиника №25\"",
-  //     adress:"пр. Солидарности, д. 1, к. 1, лит. А",
-  //     doctorname:"Малушко Т. Н.",
-  //     position:"Хирургия"
-  // }
 ];
 
 export default function testconnect2() {
@@ -67,7 +49,7 @@ export default function testconnect2() {
     <div>
       <p className="titlecardblock">Записи на прием</p>
       <div className="containerconnect">
-        <div className="connectblock">
+        <div>
           <Blog posts={posts} />
         </div>
         <div id="elseblock">
