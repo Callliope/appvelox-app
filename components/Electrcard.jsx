@@ -4,7 +4,7 @@ export default function Electrcard() {
       <a class="titlecardblock">Электронная карта</a>
       <div className="cardblock">
         <div className="childBlock">
-          <div>
+          <div className="imgcontainer">
             <img src={"/Rectangle52.png"}></img>
             <img id="miniicon1" src={"/patientinfo.png"}></img>
           </div>
@@ -18,7 +18,7 @@ export default function Electrcard() {
           </div>
         </div>
         <div className="childBlock">
-          <div>
+          <div className="imgcontainer">
             <img src={"/whiteRectangle.png"}></img>
             <img id="miniicon2" src={"/results.png"}></img>
           </div>
@@ -28,7 +28,7 @@ export default function Electrcard() {
           </div>
         </div>
         <div className="childBlock">
-          <div>
+          <div className="imgcontainer">
             <img src={"/whiteRectangle.png"}></img>
             <img id="miniicon3" src={"/addinfo.png"}></img>
           </div>
@@ -38,7 +38,7 @@ export default function Electrcard() {
           </div>
         </div>
         <div className="childBlock">
-          <div>
+          <div className="imgcontainer">
             <img src={"/whiteRectangle.png"}></img>
             <img id="miniicon4" src={"/patienthistory.png"}></img>
           </div>

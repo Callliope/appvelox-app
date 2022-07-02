@@ -188,7 +188,7 @@ color: #FFFFFF;
   flex-direction: row;
   align-items: center;
   margin-left: 210px;
-  
+  margin-top: 15px;
 }
 .childBlock{
 display: flex;
@@ -196,6 +196,8 @@ display: flex;
 width: 540px;
 box-shadow: 0px 0px 5px #EBE7FF;
 border-radius: 5px;
+margin-right: 16px;
+margin-bottom: 15px;
 
 
 }
@@ -205,6 +207,7 @@ border-radius: 5px;
 
 .textasideimg{
   padding: 20px 20px 20px 6px;
+ 
   font-weight: 400;
 font-size: 16px;
 line-height: 24px;
@@ -216,7 +219,7 @@ text-decoration: none;
 }
 #miniicon1{
   height: 50px;
-width: 39.63775634765625px;
+width: 45px;
 
 border-radius: 0px;
 
@@ -233,11 +236,23 @@ transform: translate(45px,-120px);
 }
 #miniicon3{
   height: 50px;
-  width: 44.7265625px;
+  width: 50px;
 
 
 transform: translate(45px,-120px);
 
+}
+#miniicon4{
+  height: 50px;
+  width: 50px;
+
+
+transform: translate(45px,-120px);
+
+}
+.imgcontainer{
+  height: 183px;
+  
 }
 .textasidetop{
   font-style: normal;
@@ -248,6 +263,11 @@ line-height: 33px;
 .titlecardblock{
   margin-left: 230px;
   text-decoration: none;
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
 }
 
 /* СТИЛИ БЛОКА ЗАПИСИ НА ПРИЕМ */
@@ -404,7 +424,9 @@ margin-top: -60px;}
   padding-left: 100px;
   align-self: top;
 }
-
+.pageback{
+ margin-bottom: 15px;
+}
 .sdp {
   background-color:#EBE7FF !important ;
   width: max-content !important;
@@ -419,7 +441,7 @@ border-radius: 0px !important;
 
 }
 .sdp {
-  margin-top: 65px;
+  margin-top: 20px;
   --theme-color: #7761FF !important;
   --disabled-color:  rgba(0, 0, 0, 0.25) !important;
   
