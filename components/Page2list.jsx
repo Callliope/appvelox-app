@@ -69,19 +69,22 @@ const posts = [
 export default function page2list() {
   return (
     <div>
-      <Link href="/">
-        <a href="#" className="titlecardblock pageback">
-          <img
-            src={"/pageback.png"}
-            alt="search icon"
-            class="sidebaricon "
-          ></img>
-          Мои записи
-        </a>
-      </Link>
+      <div className="pageback">
+        <Link href="/">
+          <a href="#" className="titlecardblock ">
+            <img
+              src={"/pageback.png"}
+              alt="search icon"
+              className="sidebaricon "
+            ></img>
+            Мои записи
+          </a>
+        </Link>
+      </div>
+
       <div className="containerconnect2page">
         <div className="connectblock">
-          <div class="slider__wrapper">
+          <div className="slider__wrapper">
             <Blog posts={posts} />
           </div>
         </div>

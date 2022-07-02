@@ -1,9 +1,9 @@
 export default function navbar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbarstyle ">
-        <div class="container-fluid">
-          <a class="navbar-brand textcolor topText" href="#">
+      <nav className="navbar navbar-expand-lg navbarstyle ">
+        <div className="container-fluid">
+          <a className="navbar-brand textcolor topText" href="#">
             Мой профиль
           </a>
 
@@ -13,7 +13,7 @@ export default function navbar() {
                 <img
                   src={"/search.png"}
                   alt="search icon"
-                  class="d-inline-block  iconStyle"
+                  className="d-inline-block  iconStyle"
                 ></img>
               </a>
             </li>
@@ -22,7 +22,7 @@ export default function navbar() {
                 <img
                   src={"/bell.png"}
                   alt="bell icon"
-                  class="d-inline-block  iconStyle"
+                  className="d-inline-block  iconStyle"
                 ></img>
               </a>
             </li>
@@ -32,7 +32,7 @@ export default function navbar() {
                 <img
                   src={"/eye 1.png"}
                   alt="eye icon"
-                  class="d-inline-block  iconStyle"
+                  className="d-inline-block  iconStyle"
                 ></img>
               </a>
             </li>
@@ -41,7 +41,7 @@ export default function navbar() {
                 <img
                   src={"/profilepic.png"}
                   alt="Profile picture"
-                  class="d-inline-block  profileStyle"
+                  className="d-inline-block  profileStyle"
                 ></img>
               </a>
             </li>
@@ -50,7 +50,7 @@ export default function navbar() {
                 <img
                   src={"/open.png"}
                   alt="open icon"
-                  class="d-inline-block  iconStyle"
+                  className="d-inline-block  iconStyle"
                 ></img>
               </a>
             </li>

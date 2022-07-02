@@ -217,6 +217,24 @@ text-decoration: none;
 
 
 }
+.blueborder{
+  border-bottom:2px solid #50CAFF;
+  padding-bottom: 10px;
+}
+.greyborder{
+  border-bottom:2px solid #EBE7FF;
+  padding-bottom: 10px;
+}
+li {
+  color: #50CAFF;
+  ; /* Цвет маркеров */
+ }
+ li span {
+  color: #000000; /* Цвет текста */
+ }
+ ul{
+  padding-top: 15px;
+ }
 #miniicon1{
   height: 50px;
 width: 45px;
@@ -225,6 +243,9 @@ border-radius: 0px;
 
 transform: translate(-85px,-70px);
 
+}
+.cardblock p{
+  padding-top: 15px;
 }
 #miniicon2{
   height: 50px;
@@ -316,7 +337,7 @@ color: white;
 }
 .bigblogtext{
   font-style: normal;
-font-weight: 500;
+font-weight: bold;
 font-size: 16px;
 line-height: 19px;
 padding-top: 3px;
@@ -359,7 +380,7 @@ background: #FFFFFF;
 box-shadow: 0px 0px 5px #EBE7FF;
 border-radius: 5px;
 padding: 5px 20px 20px 20px;
-margin-right: 40px;
+margin-right: 20px;
 }
 
 .containerconnect button{
@@ -383,7 +404,7 @@ margin-top: -60px;}
 }
 #elseblock{
   align-self: center;
-  padding-left: 20px;
+  
 }
 #elseblock a{
   color: #50CAFF;
@@ -407,7 +428,7 @@ margin-top: -60px;}
 
 .slider__wrapper{
   display: flex;
-  height: 60%;
+  height: 67%;
   overflow: hidden;
   overflow-y: auto;
   
@@ -425,7 +446,8 @@ margin-top: -60px;}
   align-self: top;
 }
 .pageback{
- margin-bottom: 15px;
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 .sdp {
   background-color:#EBE7FF !important ;
@@ -441,7 +463,7 @@ border-radius: 0px !important;
 
 }
 .sdp {
-  margin-top: 20px;
+  margin-top: 55px;
   --theme-color: #7761FF !important;
   --disabled-color:  rgba(0, 0, 0, 0.25) !important;
   
